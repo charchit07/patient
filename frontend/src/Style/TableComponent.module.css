@@ -1,0 +1,49 @@
+/* Style for the table */
+.table {
+ 
+   border-collapse: collapse;
+   margin-bottom: 20px;
+   /* border: 1px solid; */
+  }
+ 
+  /* Style for table headers */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style for alternating rows */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for table cells */
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style for buttons */
+  .loginbtn {
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Style for the status column */
+  td:nth-last-child(2) {
+    font-weight: bold;
+    color: green; /* You can use different colors for different status */
+  }
+  
+  /* Style for the action column */
+  td:last-child {
+    text-align: center;
+  }
+  

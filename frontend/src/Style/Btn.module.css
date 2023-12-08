@@ -1,0 +1,95 @@
+.btn_container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btnlook{
+  /* border: 2px solid red; */
+  
+ display: flex;
+ gap: 10px;
+ margin-left: 7%;
+ 
+}
+
+.btnblue{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 5vw;
+    cursor: pointer;
+    background-color: #08bcf4;
+    color: #fff
+}
+
+.btngreen{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 7vw;
+    cursor: pointer;
+    background-color: green;
+    color: #fff
+}
+
+.btnorange{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 7.5vw;
+    cursor: pointer;
+    background-color: orange;
+    color: #fff
+}
+
+.btnlight{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 7.5vw;
+    cursor: pointer;
+    background-color: #08bcf4;
+    color: #fff
+}
+
+.btnpink{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 9vw;
+    cursor: pointer;
+    background-color: pink;
+    color: #fff
+}
+
+.btnyellow{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 10vw;
+    cursor: pointer;
+    background-color: rgb(211, 211, 133);
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btncyan{
+    border: 2px solid #08bcf4;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 8.5vw;
+    cursor: pointer;
+    background-color: #08bcf4;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
