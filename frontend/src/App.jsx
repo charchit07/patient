@@ -1,17 +1,14 @@
-
-import './App.css';
-import { Field } from './Compnent/Input';
-import { Btn } from './Compnent/Button';
-import TableComponent from './Compnent/TableComponent';
-
-
+import "./App.css";
+import { Field } from "./Component/Input";
+import { Btn } from "./Component/Button";
+import TableComponent from "./Component/Table";
 
 function App() {
   return (
     <div className="App">
-      <Field/>
-       <Btn/>
-       <TableComponent/>
+      <Field />
+      <Btn />
+      <TableComponent />
     </div>
   );
 }

@@ -1,49 +1,73 @@
 /* Style for the table */
-.table {
- 
-   border-collapse: collapse;
-   margin-bottom: 20px;
-   /* border: 1px solid; */
-  }
- 
-  /* Style for table headers */
-  th {
-    background-color: #f2f2f2;
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  /* Style for alternating rows */
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  /* Style for table cells */
-  td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  /* Style for buttons */
-  .loginbtn {
-    padding: 6px 10px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  /* Style for the status column */
-  td:nth-last-child(2) {
-    font-weight: bold;
-    color: green; /* You can use different colors for different status */
-  }
-  
-  /* Style for the action column */
-  td:last-child {
-    text-align: center;
-  }
-  
+.table1 {
+  width: 60vw;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #08bcf4;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style for buttons */
+.loginbtn {
+  padding: 6px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Style for the status column */
+td:nth-last-child(2) {
+  font-weight: bold;
+  color: green;
+}
+
+/* Style for the action column */
+td:last-child {
+  text-align: center;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: grey;
+  color: white;
+  border: 1px solid #EEEEEE;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: grey;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: grey;
+}

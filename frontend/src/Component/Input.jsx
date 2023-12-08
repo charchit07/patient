@@ -9,9 +9,9 @@ export const Field = () => {
         <input type="text"  className={styles.childfield_1} placeholder='Email/Useralias' />
         <select  className={styles.childselect}>
         <option value="">Select Reseller Name</option>
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
+        <option value="option1"> 2# Hemesh</option>
+        <option value="option2">2# Hemesh</option>
+        <option value="option3">2# Hemesh</option>
       </select>
      <button className={styles.childsearch}>Search</button>
       <button className={styles.loading}>&#128472;</button>
