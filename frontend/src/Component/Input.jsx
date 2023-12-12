@@ -21,10 +21,10 @@ export const Field = () => {
           Show
         </label>
         <select >
-        <option value="">10</option>
-        <option value="option1">11</option>
-        <option value="option2">12</option>
-        <option value="option3">13</option>
+        <option value="">3</option>
+        <option value="option1">4</option>
+        <option value="option2">5</option>
+        <option value="option3">6</option>
       </select>
         <input type="search" placeholder='search' className={styles.search} />
        </div>

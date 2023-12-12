@@ -1,18 +1,22 @@
 /* Style for the table */
 .table1 {
-  width: 60vw;
+  width: 99vw;
   border-collapse: collapse;
+  margin: auto;
   margin-bottom: 20px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 /* Style for table headers */
 th {
   background-color: #f2f2f2;
   border: 1px solid #08bcf4;
-  text-align: left;
+  text-align: auto;
   padding: 8px;
   font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+
+
 }
 
 /* Style for alternating rows */
@@ -25,6 +29,8 @@ td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-size: 14px;
+  
 }
 
 /* Style for buttons */
@@ -71,3 +77,85 @@ td:last-child {
 .pagination button:hover:not(.active) {
   background-color: grey;
 }
+
+/* Media query for screen size 320px */
+@media screen and (max-width: 320px) {
+  /* Adjustments for the table */
+  .table1 {
+    width: 5vw; /* Make the table full width */
+    margin: auto;
+    margin-bottom: 10px; /* Adjust the margin */
+  }
+
+  /* Adjustments for table headers and cells */
+  th, td {
+    font-size: 10px; /* Adjust the font size */
+    padding: 4px; /* Adjust the padding */
+  }
+
+  /* Adjustments for buttons */
+  .loginbtn {
+    padding: 3px 6px; /* Adjust the padding */
+  }
+
+  /* Adjustments for the pagination buttons */
+  .pagination button {
+    padding: 4px 8px; /* Adjust the padding */
+    margin: 0 2px; /* Adjust the margin */
+  }
+}
+
+/* Media query for small screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  /* Adjustments for the table */
+  .table1 {
+    width: 100%; /* Make the table full width */
+    margin: auto;
+    margin-bottom: 10px; /* Adjust the margin */
+  }
+
+  /* Adjustments for table headers and cells */
+  th, td {
+    font-size: 12px; /* Adjust the font size */
+    padding: 6px; /* Adjust the padding */
+  }
+
+  /* Adjustments for buttons */
+  .loginbtn {
+    padding: 4px 8px; /* Adjust the padding */
+  }
+
+  /* Adjustments for the pagination buttons */
+  .pagination button {
+    padding: 6px 12px; /* Adjust the padding */
+    margin: 0 2px; /* Adjust the margin */
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* Adjustments for the table */
+  .table1 {
+    width: 99vw; /* Adjust the width */
+    margin: auto;
+    margin-bottom: 10px; /* Adjust the margin */
+  }
+
+  /* Adjustments for table headers and cells */
+  th, td {
+    font-size: 12px; /* Adjust the font size */
+    padding: 6px; /* Adjust the padding */
+  }
+
+  /* Adjustments for buttons */
+  .loginbtn {
+    padding: 4px 8px; /* Adjust the padding */
+  }
+
+  /* Adjustments for the pagination buttons */
+  .pagination button {
+    padding: 6px 12px; /* Adjust the padding */
+    margin: 0 2px; /* Adjust the margin */
+  }
+}
+
