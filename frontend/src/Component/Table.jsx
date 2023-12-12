@@ -208,7 +208,7 @@ const TableComponent = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div>
+    <div className={styles.table_container}>
       <table className={styles.table1}>
         <thead>
           <tr>

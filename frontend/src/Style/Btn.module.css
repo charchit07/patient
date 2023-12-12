@@ -1,156 +1,117 @@
 .btn_container{
-   display: flex;
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    justify-content: space-between;
-    
-}
-
-.btnblue{
-    border: 2px solid green;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 8%;
-    cursor: pointer;
-    background-color: #08bcf4;
-    color: #fff
-}
-
-.btngreen{
-    border: 2px solid #08bcf4;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 7vw;
-    cursor: pointer;
-    background-color: green;
-    color: #fff
-}
-
-.btnorange{
-    border: 2px solid #08bcf4;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 7.5vw;
-    cursor: pointer;
-    background-color: orange;
-    color: #fff
-}
-
-.btnlight{
-    border: 2px solid orangered;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 7.5vw;
-    cursor: pointer;
-    background-color: #08bcf4;
-    color: #fff
-}
-
-.btnpink{
-    border: 2px solid #08bcf4;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 12%;
-    cursor: pointer;
-    background-color: pink;
-    color: #fff
-}
-
-.btnyellow{
-    border: 2px solid #08bcf4;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 10vw;
-    cursor: pointer;
-    background-color: rgb(211, 211, 133);
-    color:black;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.btncyan{
-    border: 2px solid ;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 7px 7px;
-    width: 8.5vw;
-    cursor: pointer;
-    background-color: #08bcf4;
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-/* Media query for screen size 320px */
-@media screen and (max-width: 320px) {
-    .btn_container {
-        width: 90%;
-        display:flex;
-        align-items: stretch;
-        margin: auto;
-        margin-top: 20px; /* Adjust as needed */
-        margin-bottom: 10px; /* Adjust as needed */
-      
-    }
-
-    .btnblue,
-    .btngreen,
-    .btnorange,
-    .btnlight,
-    .btnpink,
-    .btnyellow,
-    .btncyan {
-        width: 100%;
-        margin-bottom: 10px; /* Adjust as needed */
-    }
-}
-
-/* Media query for small screens (max-width: 768px) */
-@media screen and (max-width: 768px) {
-    .btn_container {
-        display: flex;
-        width: 90%;
-        justify-content: space-between; 
-        align-items: stretch;
-    }
-
-    .btnblue,
-    .btngreen,
-    .btnorange,
-    .btnlight,
-    .btnpink,
-    .btnyellow,
-    .btncyan {
-        width: 100%;
-        margin-bottom: 10px; 
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    .btn_container {
-        /* flex-direction: column; */
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-    }
-
-    .btnblue,
-    .btngreen,
-    .btnorange,
-    .btnlight,
-    .btnpink,
-    .btnyellow,
-    .btncyan {
-        width: 10%;
-        /* margin-bottom: 10px; */
-    }
-}
+    display: grid;
+    grid-template-columns: repeat(7, 7fr);
+     width: 90%;
+     margin: auto;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     justify-content: space-between;
+     column-gap: 5px;    
+ }
+ 
+ .btnblue{
+     border: 2px solid green;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: #08bcf4;
+     color: #fff
+ }
+ 
+ .btngreen{
+     border: 2px solid #08bcf4;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: green;
+     color: #fff
+ }
+ 
+ .btnorange{
+     border: 2px solid #08bcf4;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: orange;
+     color: #fff
+ }
+ 
+ .btnlight{
+     border: 2px solid orangered;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: #08bcf4;
+     color: #fff
+ }
+ 
+ .btnpink{
+     border: 2px solid #08bcf4;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: pink;
+     color: #fff
+ }
+ 
+ .btnyellow{
+     border: 2px solid #08bcf4;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: rgb(211, 211, 133);
+     color:black;
+     font-size: 12px;
+     font-weight: bold;
+ }
+ 
+ .btncyan{
+     border: 2px solid ;
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 7px;
+     cursor: pointer;
+     background-color: #08bcf4;
+     color: black;
+     font-size: 12px;
+     font-weight: bold;
+ }
+ 
+ /* Media query for screen size 320px */
+ @media screen and (max-width: 320px) {
+     .btnblue,
+     .btngreen,
+     .btnorange,
+     .btnlight,
+     .btnpink,
+     .btnyellow,
+     .btncyan {
+         width: 100%;
+         margin-bottom: 10px; /* Adjust as needed */
+     }
+ }
+ 
+ /* Media query for small screens (max-width: 768px) */
+ @media screen and (max-width: 768px) {
+     .btn_container {
+         grid-template-columns: repeat(4, 3fr);
+     }
+ 
+     .btnblue,
+     .btngreen,
+     .btnorange,
+     .btnlight,
+     .btnpink,
+     .btnyellow,
+     .btncyan {
+         width: 100%;
+         margin-bottom: 10px; 
+     }
+ }
+ 
